@@ -9,14 +9,23 @@
     width: 500px;
     border: solid 1px #e2e8ef;
     border-radius: 5px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     display: flex;
     vertical-align: middle;
-    box-shadow: 5px 5px 20px #182019;
+    box-shadow: 5px 5px 5px #d0d4d8;
     
 }
 
-.status {
+.status_on {
+    color: green;
+    vertical-align: middle;
+    width: 20px;
+    margin-top: 40px; 
+    margin-left: 20px;
+    margin-right: 20px; 
+}
+
+.status_off {
     color: red;
     vertical-align: middle;
     width: 20px;
