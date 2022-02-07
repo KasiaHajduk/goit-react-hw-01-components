@@ -1,5 +1,6 @@
 import styles from "./FriendList.module.css";
 import { FaCircle } from 'react-icons/fa';
+import PropTypes from "prop-types";
 
 
 function FriendList(props) {
@@ -16,5 +17,13 @@ function FriendList(props) {
         {viewFriends}
     </ul>
 }
+
+
+FriendList.propTypes = {
+  avatar: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
+  isOnline: PropTypes.boolean.isRequired,
+  id: PropTypes.number.isRequired,
+};
 
 export default FriendList;

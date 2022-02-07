@@ -1,4 +1,6 @@
 import styled from 'styled-components';
+import PropTypes from "prop-types";
+
 
 const DivProfile = styled.div`
   background-color: #e7ecf2;
@@ -105,5 +107,16 @@ function Profile(props) {
       </UlStats>
 </DivProfile>
 }
+
+Profile.propTypes = {
+  username: PropTypes.string.isRequired,
+  tag: PropTypes.string.isRequired,
+  location: PropTypes.string.isRequired,
+  avatar: PropTypes.string.isRequired,
+  followers: PropTypes.number.isRequired,
+  views: PropTypes.number.isRequired,
+  likes: PropTypes.number.isRequired,
+};
+
 
 export default Profile;
