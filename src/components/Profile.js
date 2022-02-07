@@ -50,7 +50,6 @@ const UlStats = styled.ul`
   border-bottom-right-radius: 10px;
   width: 250px;
   height: 70px;
-  //text-align: center;
   margin:0 auto;
   display: flex;
 `;
