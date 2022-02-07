@@ -22,7 +22,7 @@ function FriendList(props) {
 FriendList.propTypes = {
   avatar: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
-  isOnline: PropTypes.boolean.isRequired,
+  isOnline: PropTypes.bool.isRequired,
   id: PropTypes.number.isRequired,
 };
 
